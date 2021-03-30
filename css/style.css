@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.block-row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.block-col{
+    padding-left: 0;
+    padding-right: 0;
+}
+.section-block{
+    background: white;
+}
+header nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+  
+}
+header{
+    padding: 18px 127px 18px 129px;
+}
+header nav ul li a{
+    margin-left: 32px;
+    font-size: 15px;
+    color: #191919;
+    text-transform: uppercase;
+}
+header nav ul li a:hover{
+    color: #007d2f;
+    text-decoration: none;
+    list-style: none;
+}
+/* //////////////////////////// */
+section{
+    width: 100%;
+    background: #323232;
+}
+section .row{
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+section .row h1{
+    font-size: 61px;
+    
+}
+section .row p{
+    font-size: 22px;
+}
+/* ////////////////////////////////// */
+main{
+    width: 100%;
+    background: #007d2f;
+}
+main .row {
+    padding: 61px 0 100px 0;
+}
+main .row i{
+    font-size: 30px;
+    color: white;
+   
+}
+main .row h1{
+    font-size: 18px;
+  color: #ffff;
+  padding-top: 5px;
+}
+main .row p{
+    font-size: 12px;
+    color: #ffff;
+   
+}
+/* ///////////////////////////// */
+.pipka .row img{
+    width: 100%;
+}
+.pipka .about-text{
+    padding: 145px 162px 0 109px;
+} 
+.pipka .about-text h3{
+    font-size: 30px;
+    color: #171717;
+    margin-bottom: 43px;
+}
+.pipka .about-text p{
+    font-size: 16px;
+    color: #787878;
+}
+.pipka .about-text img{
+    width: 50%;
+    padding-top: 30px;
+}
+/* //////////// */
+
+.need h3{
+    font-size: 30px;
+    color: #1d1d1d;
+    margin-top: 100px;
+}
+.need p{
+    font-size: 16px;
+    color: #787878;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.need button{
+    font-size: 12px;
+    color: #ffffff;
+    border: none;
+    text-transform: uppercase;
+    background: #007d2f;
+  transition: 0.5s;
+    padding:25px  42px ;
+}
+.need button:hover{
+    background: #036efa ;
+}
+/* /////////////////////// */
+footer{
+    background: #141414;
+    padding: 100px 0;
+    margin-top: 100px;
+}
+
+   
+
+footer ul li a{
+    font-size: 14px;
+    color: #bcbcbc;
+    transition: 0.5s;
+}
+footer ul li a:hover{
+    color: rgb(60, 255, 0);
+    text-decoration:none;
+  }
+
+footer p{
+    color: #bcbcbc;
+    font-size: 14px;
+}
+footer h3{
+    color: white;
+    font-size: 14px;
+}
+@media(max-width:1212px){
+    .pipka .about-text {
+        padding: 10px 115px 0 133px;
+    }
+}
+@media(max-width:502px){
+    .pipka .about-text img {
+        width: 77%;
+        padding-top: 30px;
+    }
+}
+@media(max-width:432px){
+    .pipka .about-text {
+        padding: 10px 60px 0px 119px;
+    }
+}
+@media(max-width:320px){
+    .pipka .about-text {
+        padding: 10px 16px 0px 75px;
+    }
+}
